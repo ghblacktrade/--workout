@@ -1,6 +1,14 @@
-@import '../../../scss/generalColor' ;
+@import '../../../scss/generalColor';
 
 .header {
-  height: 50px;
-  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  > button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
 }
