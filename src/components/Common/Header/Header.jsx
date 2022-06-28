@@ -6,6 +6,7 @@ import imgHum from '../../img/Header/humburger.svg'
 const Header = () => {
     return (
         <header className={s.header}>
+
             <button type='button'>
                 <img src={imgUser} alt='Auth'/>
             </button>
@@ -13,6 +14,7 @@ const Header = () => {
 
                 <img src={imgHum} alt='Auth'/>
             </button>
+
         </header>
     );
 };
