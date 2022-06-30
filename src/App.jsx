@@ -7,9 +7,9 @@ import Layout from "./components/Common/Layout";
 const App = () => {
     return (
         <div>
-            <Layout>
+
             <Home/>
-            </Layout>
+
         </div>
     );
 };
