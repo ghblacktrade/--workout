@@ -1,16 +1,20 @@
 import React from 'react';
 import Home from "./components/pages/Home/Home";
-import Layout from "./components/Common/Layout";
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Routes,
+    Link, Route
+} from "react-router-dom";
+import Workout from "./components/pages/Workout/Workout";
 
 
 const App = () => {
     return (
-        <div>
-
-            <Home/>
-
-        </div>
+        <Routes>
+            <Route path="Home" element={<Home />} />
+            <Route path="Workout" element={<Workout />} />
+        </Routes>
     );
 };
 

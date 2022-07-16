@@ -1,6 +1,9 @@
-.home-wrapper {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../img/home-bg.jpg");
+@import '../../../scss/generalColor';
+
+.heading {
+ margin: 38px auto;
+  text-align: center;
+  font-size: 36px;
+  color: $white;
+ line-height: 1.5;
 }
